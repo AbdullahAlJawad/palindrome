@@ -1,0 +1,89 @@
+body {
+    background-color: #232323;
+    margin: auto 0;
+    font-family: 'Catamaran', sans-serif;
+    }
+    .square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    /*border-radius: 15%;*/
+    /*border-radius: 25% 10%;*/
+    /*border-radius: 10% 30% 50% 70%;*/
+    /*border-radius: 10% / 50%*/
+    /*border-radius: 10px 100px / 120px;*/
+    border-radius: 50% 20% / 10% 40%;
+    /*border-radius: 50%;*/
+    transition: background 0.6s;
+    }
+    #colorDisplay {
+    font-size: 200%;
+    }
+    #container {
+    max-width: 600px;
+    margin: 20px auto 0 auto;
+    }
+    h1 {
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+    }
+    #stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    }
+    .selected {
+    background-color: steelblue;
+    color: white;
+    }
+    button {
+    color: steelblue;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+    }
+    button:hover {
+    color: white;
+    background-color: steelblue;
+    }
+    #message {
+    display: inline-block;
+    width: 20%;
+    }
+    .footer{
+    position: absolute;
+    top: 625px;
+    bottom: 0;
+    height: 32px;
+    width: 100%;
+    background-color: white;
+    }
+    .footer > p {
+    position: absolute;
+    top: -10px;
+    color: steelblue;
+    font-weight: bold;
+    margin-left: 45%;
+    /*text-align: center;*/
+    /*line-height: 1.8;*/
+    }
+    /*Responsive css*/
+    @media(max-width: 600px){
+    .footer > p {
+    margin-left: 40%;
+    }
+    }
